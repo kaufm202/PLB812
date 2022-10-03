@@ -1,0 +1,276 @@
+TrimmomaticPE: Started with arguments:
+ ERR754055_1.fastq ERR754055_2.fastq ../trimmed_files/ERR754055_1_trim_paired.fq.gz ../trimmed_files/ERR754055_1_trim_unpaired.fq.gz ../trimmed_files/ERR754055_2_trim_paired.fq.gz ../trimmed_files/ERR754055_2_trim_unpaired.fq.gz ILLUMINACLIP:/mnt/home/kaufm202/miniconda3/envs/plb812/share/trimmomatic-0.39-2/adapters/TruSeq2-PE.fa:2:30:10:2:True LEADING:3 TRAILING:3 MINLEN:36
+Using PrefixPair: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 6 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 22766423 Both Surviving: 18162344 (79.78%) Forward Only Surviving: 705478 (3.10%) Reverse Only Surviving: 152940 (0.67%) Dropped: 3745661 (16.45%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ ERR754056_1.fastq ERR754056_2.fastq ../trimmed_files/ERR754056_1_trim_paired.fq.gz ../trimmed_files/ERR754056_1_trim_unpaired.fq.gz ../trimmed_files/ERR754056_2_trim_paired.fq.gz ../trimmed_files/ERR754056_2_trim_unpaired.fq.gz ILLUMINACLIP:/mnt/home/kaufm202/miniconda3/envs/plb812/share/trimmomatic-0.39-2/adapters/TruSeq2-PE.fa:2:30:10:2:True LEADING:3 TRAILING:3 MINLEN:36
+Using PrefixPair: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 6 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 14435001 Both Surviving: 14030992 (97.20%) Forward Only Surviving: 312816 (2.17%) Reverse Only Surviving: 56789 (0.39%) Dropped: 34404 (0.24%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ ERR754070_1.fastq ERR754070_2.fastq ../trimmed_files/ERR754070_1_trim_paired.fq.gz ../trimmed_files/ERR754070_1_trim_unpaired.fq.gz ../trimmed_files/ERR754070_2_trim_paired.fq.gz ../trimmed_files/ERR754070_2_trim_unpaired.fq.gz ILLUMINACLIP:/mnt/home/kaufm202/miniconda3/envs/plb812/share/trimmomatic-0.39-2/adapters/TruSeq2-PE.fa:2:30:10:2:True LEADING:3 TRAILING:3 MINLEN:36
+Using PrefixPair: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 6 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 18739640 Both Surviving: 15975250 (85.25%) Forward Only Surviving: 655115 (3.50%) Reverse Only Surviving: 94082 (0.50%) Dropped: 2015193 (10.75%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ ERR754075_1.fastq ERR754075_2.fastq ../trimmed_files/ERR754075_1_trim_paired.fq.gz ../trimmed_files/ERR754075_1_trim_unpaired.fq.gz ../trimmed_files/ERR754075_2_trim_paired.fq.gz ../trimmed_files/ERR754075_2_trim_unpaired.fq.gz ILLUMINACLIP:/mnt/home/kaufm202/miniconda3/envs/plb812/share/trimmomatic-0.39-2/adapters/TruSeq2-PE.fa:2:30:10:2:True LEADING:3 TRAILING:3 MINLEN:36
+Using PrefixPair: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 6 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 18756805 Both Surviving: 17656421 (94.13%) Forward Only Surviving: 483623 (2.58%) Reverse Only Surviving: 74221 (0.40%) Dropped: 542540 (2.89%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ ERR754076_1.fastq ERR754076_2.fastq ../trimmed_files/ERR754076_1_trim_paired.fq.gz ../trimmed_files/ERR754076_1_trim_unpaired.fq.gz ../trimmed_files/ERR754076_2_trim_paired.fq.gz ../trimmed_files/ERR754076_2_trim_unpaired.fq.gz ILLUMINACLIP:/mnt/home/kaufm202/miniconda3/envs/plb812/share/trimmomatic-0.39-2/adapters/TruSeq2-PE.fa:2:30:10:2:True LEADING:3 TRAILING:3 MINLEN:36
+Using PrefixPair: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 6 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 14374183 Both Surviving: 13474024 (93.74%) Forward Only Surviving: 350542 (2.44%) Reverse Only Surviving: 53695 (0.37%) Dropped: 495922 (3.45%)
+TrimmomaticPE: Completed successfully
+Started analysis of ERR754055_1_trim_paired.fq.gz
+Approx 5% complete for ERR754055_1_trim_paired.fq.gz
+Approx 10% complete for ERR754055_1_trim_paired.fq.gz
+Approx 15% complete for ERR754055_1_trim_paired.fq.gz
+Approx 20% complete for ERR754055_1_trim_paired.fq.gz
+Approx 25% complete for ERR754055_1_trim_paired.fq.gz
+Approx 30% complete for ERR754055_1_trim_paired.fq.gz
+Approx 35% complete for ERR754055_1_trim_paired.fq.gz
+Approx 40% complete for ERR754055_1_trim_paired.fq.gz
+Approx 45% complete for ERR754055_1_trim_paired.fq.gz
+Approx 50% complete for ERR754055_1_trim_paired.fq.gz
+Approx 55% complete for ERR754055_1_trim_paired.fq.gz
+Approx 60% complete for ERR754055_1_trim_paired.fq.gz
+Approx 65% complete for ERR754055_1_trim_paired.fq.gz
+Approx 70% complete for ERR754055_1_trim_paired.fq.gz
+Approx 75% complete for ERR754055_1_trim_paired.fq.gz
+Approx 80% complete for ERR754055_1_trim_paired.fq.gz
+Approx 85% complete for ERR754055_1_trim_paired.fq.gz
+Approx 90% complete for ERR754055_1_trim_paired.fq.gz
+Approx 95% complete for ERR754055_1_trim_paired.fq.gz
+Analysis complete for ERR754055_1_trim_paired.fq.gz
+Started analysis of ERR754055_2_trim_paired.fq.gz
+Approx 5% complete for ERR754055_2_trim_paired.fq.gz
+Approx 10% complete for ERR754055_2_trim_paired.fq.gz
+Approx 15% complete for ERR754055_2_trim_paired.fq.gz
+Approx 20% complete for ERR754055_2_trim_paired.fq.gz
+Approx 25% complete for ERR754055_2_trim_paired.fq.gz
+Approx 30% complete for ERR754055_2_trim_paired.fq.gz
+Approx 35% complete for ERR754055_2_trim_paired.fq.gz
+Approx 40% complete for ERR754055_2_trim_paired.fq.gz
+Approx 45% complete for ERR754055_2_trim_paired.fq.gz
+Approx 50% complete for ERR754055_2_trim_paired.fq.gz
+Approx 55% complete for ERR754055_2_trim_paired.fq.gz
+Approx 60% complete for ERR754055_2_trim_paired.fq.gz
+Approx 65% complete for ERR754055_2_trim_paired.fq.gz
+Approx 70% complete for ERR754055_2_trim_paired.fq.gz
+Approx 75% complete for ERR754055_2_trim_paired.fq.gz
+Approx 80% complete for ERR754055_2_trim_paired.fq.gz
+Approx 85% complete for ERR754055_2_trim_paired.fq.gz
+Approx 90% complete for ERR754055_2_trim_paired.fq.gz
+Approx 95% complete for ERR754055_2_trim_paired.fq.gz
+Analysis complete for ERR754055_2_trim_paired.fq.gz
+Started analysis of ERR754056_1_trim_paired.fq.gz
+Approx 5% complete for ERR754056_1_trim_paired.fq.gz
+Approx 10% complete for ERR754056_1_trim_paired.fq.gz
+Approx 15% complete for ERR754056_1_trim_paired.fq.gz
+Approx 20% complete for ERR754056_1_trim_paired.fq.gz
+Approx 25% complete for ERR754056_1_trim_paired.fq.gz
+Approx 30% complete for ERR754056_1_trim_paired.fq.gz
+Approx 35% complete for ERR754056_1_trim_paired.fq.gz
+Approx 40% complete for ERR754056_1_trim_paired.fq.gz
+Approx 45% complete for ERR754056_1_trim_paired.fq.gz
+Approx 50% complete for ERR754056_1_trim_paired.fq.gz
+Approx 55% complete for ERR754056_1_trim_paired.fq.gz
+Approx 60% complete for ERR754056_1_trim_paired.fq.gz
+Approx 65% complete for ERR754056_1_trim_paired.fq.gz
+Approx 70% complete for ERR754056_1_trim_paired.fq.gz
+Approx 75% complete for ERR754056_1_trim_paired.fq.gz
+Approx 80% complete for ERR754056_1_trim_paired.fq.gz
+Approx 85% complete for ERR754056_1_trim_paired.fq.gz
+Approx 90% complete for ERR754056_1_trim_paired.fq.gz
+Approx 95% complete for ERR754056_1_trim_paired.fq.gz
+Analysis complete for ERR754056_1_trim_paired.fq.gz
+Started analysis of ERR754056_2_trim_paired.fq.gz
+Approx 5% complete for ERR754056_2_trim_paired.fq.gz
+Approx 10% complete for ERR754056_2_trim_paired.fq.gz
+Approx 15% complete for ERR754056_2_trim_paired.fq.gz
+Approx 20% complete for ERR754056_2_trim_paired.fq.gz
+Approx 25% complete for ERR754056_2_trim_paired.fq.gz
+Approx 30% complete for ERR754056_2_trim_paired.fq.gz
+Approx 35% complete for ERR754056_2_trim_paired.fq.gz
+Approx 40% complete for ERR754056_2_trim_paired.fq.gz
+Approx 45% complete for ERR754056_2_trim_paired.fq.gz
+Approx 50% complete for ERR754056_2_trim_paired.fq.gz
+Approx 55% complete for ERR754056_2_trim_paired.fq.gz
+Approx 60% complete for ERR754056_2_trim_paired.fq.gz
+Approx 65% complete for ERR754056_2_trim_paired.fq.gz
+Approx 70% complete for ERR754056_2_trim_paired.fq.gz
+Approx 75% complete for ERR754056_2_trim_paired.fq.gz
+Approx 80% complete for ERR754056_2_trim_paired.fq.gz
+Approx 85% complete for ERR754056_2_trim_paired.fq.gz
+Approx 90% complete for ERR754056_2_trim_paired.fq.gz
+Approx 95% complete for ERR754056_2_trim_paired.fq.gz
+Analysis complete for ERR754056_2_trim_paired.fq.gz
+Started analysis of ERR754070_1_trim_paired.fq.gz
+Approx 5% complete for ERR754070_1_trim_paired.fq.gz
+Approx 10% complete for ERR754070_1_trim_paired.fq.gz
+Approx 15% complete for ERR754070_1_trim_paired.fq.gz
+Approx 20% complete for ERR754070_1_trim_paired.fq.gz
+Approx 25% complete for ERR754070_1_trim_paired.fq.gz
+Approx 30% complete for ERR754070_1_trim_paired.fq.gz
+Approx 35% complete for ERR754070_1_trim_paired.fq.gz
+Approx 40% complete for ERR754070_1_trim_paired.fq.gz
+Approx 45% complete for ERR754070_1_trim_paired.fq.gz
+Approx 50% complete for ERR754070_1_trim_paired.fq.gz
+Approx 55% complete for ERR754070_1_trim_paired.fq.gz
+Approx 60% complete for ERR754070_1_trim_paired.fq.gz
+Approx 65% complete for ERR754070_1_trim_paired.fq.gz
+Approx 70% complete for ERR754070_1_trim_paired.fq.gz
+Approx 75% complete for ERR754070_1_trim_paired.fq.gz
+Approx 80% complete for ERR754070_1_trim_paired.fq.gz
+Approx 85% complete for ERR754070_1_trim_paired.fq.gz
+Approx 90% complete for ERR754070_1_trim_paired.fq.gz
+Approx 95% complete for ERR754070_1_trim_paired.fq.gz
+Analysis complete for ERR754070_1_trim_paired.fq.gz
+Started analysis of ERR754070_2_trim_paired.fq.gz
+Approx 5% complete for ERR754070_2_trim_paired.fq.gz
+Approx 10% complete for ERR754070_2_trim_paired.fq.gz
+Approx 15% complete for ERR754070_2_trim_paired.fq.gz
+Approx 20% complete for ERR754070_2_trim_paired.fq.gz
+Approx 25% complete for ERR754070_2_trim_paired.fq.gz
+Approx 30% complete for ERR754070_2_trim_paired.fq.gz
+Approx 35% complete for ERR754070_2_trim_paired.fq.gz
+Approx 40% complete for ERR754070_2_trim_paired.fq.gz
+Approx 45% complete for ERR754070_2_trim_paired.fq.gz
+Approx 50% complete for ERR754070_2_trim_paired.fq.gz
+Approx 55% complete for ERR754070_2_trim_paired.fq.gz
+Approx 60% complete for ERR754070_2_trim_paired.fq.gz
+Approx 65% complete for ERR754070_2_trim_paired.fq.gz
+Approx 70% complete for ERR754070_2_trim_paired.fq.gz
+Approx 75% complete for ERR754070_2_trim_paired.fq.gz
+Approx 80% complete for ERR754070_2_trim_paired.fq.gz
+Approx 85% complete for ERR754070_2_trim_paired.fq.gz
+Approx 90% complete for ERR754070_2_trim_paired.fq.gz
+Approx 95% complete for ERR754070_2_trim_paired.fq.gz
+Analysis complete for ERR754070_2_trim_paired.fq.gz
+Started analysis of ERR754075_1_trim_paired.fq.gz
+Approx 5% complete for ERR754075_1_trim_paired.fq.gz
+Approx 10% complete for ERR754075_1_trim_paired.fq.gz
+Approx 15% complete for ERR754075_1_trim_paired.fq.gz
+Approx 20% complete for ERR754075_1_trim_paired.fq.gz
+Approx 25% complete for ERR754075_1_trim_paired.fq.gz
+Approx 30% complete for ERR754075_1_trim_paired.fq.gz
+Approx 35% complete for ERR754075_1_trim_paired.fq.gz
+Approx 40% complete for ERR754075_1_trim_paired.fq.gz
+Approx 45% complete for ERR754075_1_trim_paired.fq.gz
+Approx 50% complete for ERR754075_1_trim_paired.fq.gz
+Approx 55% complete for ERR754075_1_trim_paired.fq.gz
+Approx 60% complete for ERR754075_1_trim_paired.fq.gz
+Approx 65% complete for ERR754075_1_trim_paired.fq.gz
+Approx 70% complete for ERR754075_1_trim_paired.fq.gz
+Approx 75% complete for ERR754075_1_trim_paired.fq.gz
+Approx 80% complete for ERR754075_1_trim_paired.fq.gz
+Approx 85% complete for ERR754075_1_trim_paired.fq.gz
+Approx 90% complete for ERR754075_1_trim_paired.fq.gz
+Approx 95% complete for ERR754075_1_trim_paired.fq.gz
+Analysis complete for ERR754075_1_trim_paired.fq.gz
+Started analysis of ERR754075_2_trim_paired.fq.gz
+Approx 5% complete for ERR754075_2_trim_paired.fq.gz
+Approx 10% complete for ERR754075_2_trim_paired.fq.gz
+Approx 15% complete for ERR754075_2_trim_paired.fq.gz
+Approx 20% complete for ERR754075_2_trim_paired.fq.gz
+Approx 25% complete for ERR754075_2_trim_paired.fq.gz
+Approx 30% complete for ERR754075_2_trim_paired.fq.gz
+Approx 35% complete for ERR754075_2_trim_paired.fq.gz
+Approx 40% complete for ERR754075_2_trim_paired.fq.gz
+Approx 45% complete for ERR754075_2_trim_paired.fq.gz
+Approx 50% complete for ERR754075_2_trim_paired.fq.gz
+Approx 55% complete for ERR754075_2_trim_paired.fq.gz
+Approx 60% complete for ERR754075_2_trim_paired.fq.gz
+Approx 65% complete for ERR754075_2_trim_paired.fq.gz
+Approx 70% complete for ERR754075_2_trim_paired.fq.gz
+Approx 75% complete for ERR754075_2_trim_paired.fq.gz
+Approx 80% complete for ERR754075_2_trim_paired.fq.gz
+Approx 85% complete for ERR754075_2_trim_paired.fq.gz
+Approx 90% complete for ERR754075_2_trim_paired.fq.gz
+Approx 95% complete for ERR754075_2_trim_paired.fq.gz
+Analysis complete for ERR754075_2_trim_paired.fq.gz
+Started analysis of ERR754076_1_trim_paired.fq.gz
+Approx 5% complete for ERR754076_1_trim_paired.fq.gz
+Approx 10% complete for ERR754076_1_trim_paired.fq.gz
+Approx 15% complete for ERR754076_1_trim_paired.fq.gz
+Approx 20% complete for ERR754076_1_trim_paired.fq.gz
+Approx 25% complete for ERR754076_1_trim_paired.fq.gz
+Approx 30% complete for ERR754076_1_trim_paired.fq.gz
+Approx 35% complete for ERR754076_1_trim_paired.fq.gz
+Approx 40% complete for ERR754076_1_trim_paired.fq.gz
+Approx 45% complete for ERR754076_1_trim_paired.fq.gz
+Approx 50% complete for ERR754076_1_trim_paired.fq.gz
+Approx 55% complete for ERR754076_1_trim_paired.fq.gz
+Approx 60% complete for ERR754076_1_trim_paired.fq.gz
+Approx 65% complete for ERR754076_1_trim_paired.fq.gz
+Approx 70% complete for ERR754076_1_trim_paired.fq.gz
+Approx 75% complete for ERR754076_1_trim_paired.fq.gz
+Approx 80% complete for ERR754076_1_trim_paired.fq.gz
+Approx 85% complete for ERR754076_1_trim_paired.fq.gz
+Approx 90% complete for ERR754076_1_trim_paired.fq.gz
+Approx 95% complete for ERR754076_1_trim_paired.fq.gz
+Approx 100% complete for ERR754076_1_trim_paired.fq.gz
+Analysis complete for ERR754076_1_trim_paired.fq.gz
+Started analysis of ERR754076_2_trim_paired.fq.gz
+Approx 5% complete for ERR754076_2_trim_paired.fq.gz
+Approx 10% complete for ERR754076_2_trim_paired.fq.gz
+Approx 15% complete for ERR754076_2_trim_paired.fq.gz
+Approx 20% complete for ERR754076_2_trim_paired.fq.gz
+Approx 25% complete for ERR754076_2_trim_paired.fq.gz
+Approx 30% complete for ERR754076_2_trim_paired.fq.gz
+Approx 35% complete for ERR754076_2_trim_paired.fq.gz
+Approx 40% complete for ERR754076_2_trim_paired.fq.gz
+Approx 45% complete for ERR754076_2_trim_paired.fq.gz
+Approx 50% complete for ERR754076_2_trim_paired.fq.gz
+Approx 55% complete for ERR754076_2_trim_paired.fq.gz
+Approx 60% complete for ERR754076_2_trim_paired.fq.gz
+Approx 65% complete for ERR754076_2_trim_paired.fq.gz
+Approx 70% complete for ERR754076_2_trim_paired.fq.gz
+Approx 75% complete for ERR754076_2_trim_paired.fq.gz
+Approx 80% complete for ERR754076_2_trim_paired.fq.gz
+Approx 85% complete for ERR754076_2_trim_paired.fq.gz
+Approx 90% complete for ERR754076_2_trim_paired.fq.gz
+Approx 95% complete for ERR754076_2_trim_paired.fq.gz
+Analysis complete for ERR754076_2_trim_paired.fq.gz
