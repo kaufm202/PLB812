@@ -1,0 +1,590 @@
+Settings:
+  Output files: "at_genome_index.*.ht2"
+  Line rate: 7 (line is 128 bytes)
+  Lines per side: 1 (side is 128 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Local offset rate: 3 (one in 8)
+  Local fTable chars: 6
+  Local sequence length: 57344
+  Local sequence overlap between two consecutive indexes: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  a_thaliana_sequence.fna
+Reading reference sizes
+  Time reading reference sizes: 00:00:01
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:01
+  Time to read SNPs and splice sites: 00:00:29
+Generation 0 (119617420 -> 119617420 nodes, 0 ranks)
+COUNTED NEW NODES: 0
+COUNTED TEMP NODES: 0
+RESIZED NODES: 0
+RESIZED NODES: 0
+MADE NEW NODES: 0
+Generation 1 (119750921 -> 119750921 nodes, 0 ranks)
+COUNTED NEW NODES: 0
+COUNTED TEMP NODES: 0
+RESIZED NODES: 1
+RESIZED NODES: 0
+MADE NEW NODES: 0
+Generation 2 (120017934 -> 120017934 nodes, 0 ranks)
+COUNTED NEW NODES: 0
+COUNTED TEMP NODES: 0
+RESIZED NODES: 0
+RESIZED NODES: 0
+MADE NEW NODES: 0
+Generation 3 (120552047 -> 120552047 nodes, 0 ranks)
+BUILT FROM_INDEX: 1
+COUNTED NEW NODES: 0
+COUNTED TEMP NODES: 0
+RESIZED NODES: 0
+RESIZED NODES: 0
+MADE NEW NODES: 0
+RESIZE NODES: 0
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 1
+4 14027531
+16 13598463
+45 14088624
+19 11904213
+47 12820249
+22 11547343
+42 10997601
+9 10927167
+14 13529978
+148 8179779
+FINISHED RECURSIVE SORTS: 1
+SORT NODES: 2
+MERGE, UPDATE RANK: 1
+Generation 4 (121620948 -> 120936944 nodes, 101642148 ranks)
+ALLOCATE FROM_TABLE: 0
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 1
+46 12238266
+46 12177937
+46 12181889
+46 12218358
+46 12241215
+46 12172390
+46 12180374
+45 11981599
+45 11910695
+44 11634221
+FINISHED RECURSIVE SORTS: 0
+BUILD TABLE: 1
+BUILD INDEX: 0
+COUNTED NEW NODES: 0
+COUNTED TEMP NODES: 0
+RESIZED NODES: 0
+RESIZED NODES: 0
+MADE NEW NODES: 1
+MERGEUPDATERANK: 0
+TOTAL TIME: 2
+Generation 5 (121117461 -> 120932584 nodes, 115140151 ranks)
+ALLOCATE FROM_TABLE: 0
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 1
+46 12236021
+46 12180012
+46 12182486
+46 12216219
+46 12239001
+46 12173934
+46 12181701
+45 11979934
+45 11911583
+44 11631693
+FINISHED RECURSIVE SORTS: 0
+BUILD TABLE: 1
+BUILD INDEX: 0
+COUNTED NEW NODES: 0
+COUNTED TEMP NODES: 0
+RESIZED NODES: 0
+RESIZED NODES: 0
+MADE NEW NODES: 1
+MERGEUPDATERANK: 0
+TOTAL TIME: 2
+Generation 6 (120974014 -> 120952066 nodes, 117915567 ranks)
+ALLOCATE FROM_TABLE: 0
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 0
+46 12237478
+46 12182995
+46 12184931
+46 12217147
+46 12240324
+46 12176476
+46 12185196
+45 11981213
+45 11914072
+44 11632234
+FINISHED RECURSIVE SORTS: 1
+BUILD TABLE: 1
+BUILD INDEX: 0
+COUNTED NEW NODES: 0
+COUNTED TEMP NODES: 0
+RESIZED NODES: 0
+RESIZED NODES: 0
+MADE NEW NODES: 0
+MERGEUPDATERANK: 1
+TOTAL TIME: 2
+Generation 7 (120982388 -> 120969966 nodes, 119277476 ranks)
+ALLOCATE FROM_TABLE: 0
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 0
+46 12238312
+46 12186215
+46 12187798
+46 12217933
+46 12242025
+46 12178078
+46 12188724
+45 11982186
+45 11916013
+44 11632682
+FINISHED RECURSIVE SORTS: 0
+BUILD TABLE: 0
+BUILD INDEX: 0
+COUNTED NEW NODES: 0
+COUNTED TEMP NODES: 0
+RESIZED NODES: 0
+RESIZED NODES: 0
+MADE NEW NODES: 1
+MERGEUPDATERANK: 0
+TOTAL TIME: 1
+Generation 8 (120997245 -> 120986545 nodes, 119890866 ranks)
+ALLOCATE FROM_TABLE: 0
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 0
+46 12238745
+46 12190086
+46 12191393
+46 12217635
+46 12244216
+46 12178510
+46 12192077
+45 11983010
+45 11917726
+44 11633147
+FINISHED RECURSIVE SORTS: 1
+BUILD TABLE: 1
+BUILD INDEX: 0
+COUNTED NEW NODES: 0
+COUNTED TEMP NODES: 0
+RESIZED NODES: 0
+RESIZED NODES: 0
+MADE NEW NODES: 0
+MERGEUPDATERANK: 0
+TOTAL TIME: 1
+Generation 9 (121015180 -> 121004119 nodes, 120224025 ranks)
+ALLOCATE FROM_TABLE: 0
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 1
+46 12239309
+46 12194426
+46 12196065
+46 12217570
+46 12245817
+46 12178495
+46 12194716
+45 11984034
+45 11919853
+44 11633834
+FINISHED RECURSIVE SORTS: 0
+BUILD TABLE: 1
+BUILD INDEX: 0
+COUNTED NEW NODES: 0
+COUNTED TEMP NODES: 0
+RESIZED NODES: 0
+RESIZED NODES: 0
+MADE NEW NODES: 0
+MERGEUPDATERANK: 1
+TOTAL TIME: 2
+Generation 10 (121040909 -> 121027831 nodes, 120439107 ranks)
+ALLOCATE FROM_TABLE: 0
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 0
+46 12240733
+46 12200043
+46 12200214
+46 12217570
+46 12248603
+46 12178777
+46 12198398
+45 11984206
+45 11924429
+44 11634858
+FINISHED RECURSIVE SORTS: 1
+BUILD TABLE: 1
+BUILD INDEX: 0
+COUNTED NEW NODES: 0
+COUNTED TEMP NODES: 0
+RESIZED NODES: 0
+RESIZED NODES: 0
+MADE NEW NODES: 0
+MERGEUPDATERANK: 0
+TOTAL TIME: 1
+Generation 11 (121074213 -> 121054025 nodes, 120621503 ranks)
+ALLOCATE FROM_TABLE: 0
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 1
+46 12243738
+46 12208018
+46 12196797
+46 12217570
+46 12253653
+46 12178777
+46 12202952
+45 11983991
+45 11931623
+44 11636906
+FINISHED RECURSIVE SORTS: 0
+BUILD TABLE: 1
+BUILD INDEX: 0
+COUNTED NEW NODES: 0
+COUNTED TEMP NODES: 0
+RESIZED NODES: 0
+RESIZED NODES: 0
+MADE NEW NODES: 0
+MERGEUPDATERANK: 1
+TOTAL TIME: 2
+Generation 12 (121104758 -> 121086670 nodes, 120782049 ranks)
+ALLOCATE FROM_TABLE: 0
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 0
+46 12249882
+46 12218246
+46 12193377
+46 12217515
+46 12257749
+46 12178777
+46 12204024
+45 11983991
+45 11943911
+44 11639198
+FINISHED RECURSIVE SORTS: 0
+BUILD TABLE: 0
+BUILD INDEX: 1
+COUNTED NEW NODES: 0
+COUNTED TEMP NODES: 0
+RESIZED NODES: 0
+RESIZED NODES: 0
+MADE NEW NODES: 0
+MERGEUPDATERANK: 0
+TOTAL TIME: 1
+Generation 13 (121146096 -> 121125642 nodes, 120926825 ranks)
+ALLOCATE FROM_TABLE: 0
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 0
+46 12259829
+46 12225138
+46 12193377
+46 12217515
+46 12260210
+46 12178777
+46 12201929
+45 11983991
+45 11965678
+44 11639198
+FINISHED RECURSIVE SORTS: 1
+BUILD TABLE: 1
+BUILD INDEX: 0
+COUNTED NEW NODES: 0
+COUNTED TEMP NODES: 0
+RESIZED NODES: 0
+RESIZED NODES: 0
+MADE NEW NODES: 0
+MERGEUPDATERANK: 1
+TOTAL TIME: 2
+Generation 14 (121168867 -> 121148544 nodes, 121056396 ranks)
+ALLOCATE FROM_TABLE: 0
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 0
+46 12261386
+46 12214848
+46 12193377
+46 12217515
+46 12260210
+46 12178777
+46 12201929
+45 11983991
+45 11997313
+44 11639198
+FINISHED RECURSIVE SORTS: 0
+BUILD TABLE: 0
+BUILD INDEX: 0
+COUNTED NEW NODES: 0
+COUNTED TEMP NODES: 0
+RESIZED NODES: 0
+RESIZED NODES: 0
+MADE NEW NODES: 1
+MERGEUPDATERANK: 0
+TOTAL TIME: 1
+Generation 15 (121165614 -> 121158347 nodes, 121139915 ranks)
+ALLOCATE FROM_TABLE: 0
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 0
+46 12261386
+46 12213972
+46 12193377
+46 12217515
+46 12260210
+46 12178777
+46 12201929
+45 11983991
+45 12007992
+44 11639198
+FINISHED RECURSIVE SORTS: 1
+BUILD TABLE: 1
+BUILD INDEX: 0
+COUNTED NEW NODES: 0
+COUNTED TEMP NODES: 0
+RESIZED NODES: 0
+RESIZED NODES: 0
+MADE NEW NODES: 0
+MERGEUPDATERANK: 0
+TOTAL TIME: 1
+Generation 16 (121169493 -> 121158341 nodes, 121158341 ranks)
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 1
+46 12261386
+46 12213972
+46 12193377
+46 12217515
+46 12260210
+46 12178777
+46 12201929
+45 11983991
+45 12007986
+44 11639198
+FINISHED RECURSIVE SORTS: 0
+Generating edges... 
+NODE.TO -> GENOME POS: 0
+BUILD FROM_INDEX 1
+COUNTED NEW EDGES: 0
+MADE NEW EDGES: 0
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 0
+39 3886498
+39 3893409
+42 3908099
+47 3890837
+51 3912322
+45 3874985
+47 3859086
+45 3862820
+51 3863507
+57 3801102
+FINISHED RECURSIVE SORTS: 1
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 0
+40 2203469
+43 2209331
+44 2228864
+41 2197034
+45 2222382
+60 2199864
+57 2206862
+44 2225931
+48 2191492
+41 2071504
+FINISHED RECURSIVE SORTS: 0
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 0
+43 2229079
+44 2235991
+41 2235245
+46 2191725
+50 2198932
+45 2190125
+44 2172973
+52 2158222
+50 2128382
+48 2119046
+FINISHED RECURSIVE SORTS: 0
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 0
+67 3894925
+60 3881818
+49 3895375
+41 3893114
+43 3915660
+41 3920771
+43 3880333
+42 3862389
+39 3827787
+38 3750786
+FINISHED RECURSIVE SORTS: 0
+SORTED NEW EDGES: 1
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 1
+47 12320768
+47 12320768
+47 12320768
+46 12058624
+46 12058624
+46 12058624
+46 12058624
+46 12058624
+46 12058624
+46 11844293
+FINISHED RECURSIVE SORTS: 0
+RE-SORTED NODES: 1
+PROCESS EDGES: 0
+REMOVE Y: 1
+COUNT NUMBER IN EACH BIN: 0
+FINISHED FIRST ROUND: 0
+47 12324124
+47 12344050
+47 12339172
+46 12077407
+46 12093359
+46 12070292
+46 12072815
+46 12062588
+46 12060958
+46 11847312
+FINISHED RECURSIVE SORTS: 0
+SORT, Make index: 0
+TOTAL: 4
+Allocating ftab, absorbFtab
+Entering GFM loop
+Exited GFM loop
+fchr[A]: 0
+fchr[C]: 38752665
+fchr[G]: 60709398
+fchr[T]: 82569118
+fchr[$]: 121292076
+Exiting GFM::buildToDisk()
+Returning from initFromVector
+Wrote 78840892 bytes to primary GFM file: at_genome_index.1.ht2
+Wrote 30289592 bytes to secondary GFM file: at_genome_index.2.ht2
+Re-opening _in1 and _in2 as input streams
+Returning from GFM constructor
+Warning: a local graph exploded (offset: 8785920, length: 57344)
+Warning: a local graph exploded (offset: 59364279, length: 57344)
+Warning: a local graph exploded (offset: 59364279, length: 57344)
+Warning: a local graph exploded (offset: 59364279, length: 57344)
+Warning: a local graph exploded (offset: 112541439, length: 57344)
+Returning from initFromVector
+Wrote 84644001 bytes to primary GFM file: at_genome_index.5.ht2
+Wrote 30596346 bytes to secondary GFM file: at_genome_index.6.ht2
+Re-opening _in5 and _in5 as input streams
+Returning from HGFM constructor
+Headers:
+    len: 119482427
+    gbwtLen: 121292077
+    nodes: 121158340
+    sz: 59741214
+    gbwtSz: 60646039
+    lineRate: 7
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 0
+    eftabSz: 0
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 7572397
+    offsSz: 30289588
+    lineSz: 128
+    sideSz: 128
+    sideGbwtSz: 104
+    sideGbwtLen: 208
+    numSides: 583135
+    numLines: 583135
+    gbwtTotLen: 74641280
+    gbwtTotSz: 74641280
+    reverse: 0
+    linearFM: No
+Total time for call to driver() for forward index: 00:02:52
+18162344 reads; of these:
+  18162344 (100.00%) were paired; of these:
+    1945317 (10.71%) aligned concordantly 0 times
+    11760299 (64.75%) aligned concordantly exactly 1 time
+    4456728 (24.54%) aligned concordantly >1 times
+    ----
+    1945317 pairs aligned concordantly 0 times; of these:
+      110286 (5.67%) aligned discordantly 1 time
+    ----
+    1835031 pairs aligned 0 times concordantly or discordantly; of these:
+      3670062 mates make up the pairs; of these:
+        2170066 (59.13%) aligned 0 times
+        1060767 (28.90%) aligned exactly 1 time
+        439229 (11.97%) aligned >1 times
+94.03% overall alignment rate
+[bam_sort_core] merging from 12 files and 4 in-memory blocks...
+14030992 reads; of these:
+  14030992 (100.00%) were paired; of these:
+    1526343 (10.88%) aligned concordantly 0 times
+    11819390 (84.24%) aligned concordantly exactly 1 time
+    685259 (4.88%) aligned concordantly >1 times
+    ----
+    1526343 pairs aligned concordantly 0 times; of these:
+      44542 (2.92%) aligned discordantly 1 time
+    ----
+    1481801 pairs aligned 0 times concordantly or discordantly; of these:
+      2963602 mates make up the pairs; of these:
+        1901936 (64.18%) aligned 0 times
+        1017250 (34.32%) aligned exactly 1 time
+        44416 (1.50%) aligned >1 times
+93.22% overall alignment rate
+[bam_sort_core] merging from 8 files and 4 in-memory blocks...
+15975250 reads; of these:
+  15975250 (100.00%) were paired; of these:
+    1424122 (8.91%) aligned concordantly 0 times
+    12772217 (79.95%) aligned concordantly exactly 1 time
+    1778911 (11.14%) aligned concordantly >1 times
+    ----
+    1424122 pairs aligned concordantly 0 times; of these:
+      65563 (4.60%) aligned discordantly 1 time
+    ----
+    1358559 pairs aligned 0 times concordantly or discordantly; of these:
+      2717118 mates make up the pairs; of these:
+        1732190 (63.75%) aligned 0 times
+        886332 (32.62%) aligned exactly 1 time
+        98596 (3.63%) aligned >1 times
+94.58% overall alignment rate
+[bam_sort_core] merging from 12 files and 4 in-memory blocks...
+17656421 reads; of these:
+  17656421 (100.00%) were paired; of these:
+    2021377 (11.45%) aligned concordantly 0 times
+    12808457 (72.54%) aligned concordantly exactly 1 time
+    2826587 (16.01%) aligned concordantly >1 times
+    ----
+    2021377 pairs aligned concordantly 0 times; of these:
+      103606 (5.13%) aligned discordantly 1 time
+    ----
+    1917771 pairs aligned 0 times concordantly or discordantly; of these:
+      3835542 mates make up the pairs; of these:
+        2369732 (61.78%) aligned 0 times
+        1215891 (31.70%) aligned exactly 1 time
+        249919 (6.52%) aligned >1 times
+93.29% overall alignment rate
+[bam_sort_core] merging from 12 files and 4 in-memory blocks...
+13474024 reads; of these:
+  13474024 (100.00%) were paired; of these:
+    1491916 (11.07%) aligned concordantly 0 times
+    9946734 (73.82%) aligned concordantly exactly 1 time
+    2035374 (15.11%) aligned concordantly >1 times
+    ----
+    1491916 pairs aligned concordantly 0 times; of these:
+      70393 (4.72%) aligned discordantly 1 time
+    ----
+    1421523 pairs aligned 0 times concordantly or discordantly; of these:
+      2843046 mates make up the pairs; of these:
+        1789898 (62.96%) aligned 0 times
+        893780 (31.44%) aligned exactly 1 time
+        159368 (5.61%) aligned >1 times
+93.36% overall alignment rate
+[bam_sort_core] merging from 8 files and 4 in-memory blocks...
