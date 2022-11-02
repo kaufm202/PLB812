@@ -1,0 +1,5 @@
+GO.ID,Term,Annotated,Significant,Expected,Fisher,fdr
+GO:0050794,regulation of cellular process,1077,6,2.9,0.019,0.019
+GO:0044249,cellular biosynthetic process,1610,6,4.33,0.033,0.033
+GO:0051171,regulation of nitrogen compound metaboli...,702,4,1.89,0.037,0.037
+GO:0005975,carbohydrate metabolic process,351,3,0.94,0.049,0.049

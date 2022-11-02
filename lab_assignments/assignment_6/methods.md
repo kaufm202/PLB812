@@ -1,0 +1,10 @@
+I used the Araport 11 Arabidopsis thaliana annotations, downloaded from Phytozome. I downloaded the GO txt file, reviewed the code for cleaning it, but then grabbed the cleaned file off of niederhuth/plb812 GitHub as to not waste the computational power of remaking the same file. To match the names, I edited the names of the DESeq2 output using a loop with gsub to replace the extra ".Araport11.447" with "", and that resulted in matching names.
+
+I had 14 genes that were significantly differentially expressed at p-adjusted 0.05 and 2-fold change. I tried GO analysis, but was just getting one gene per cluster, so the results were not helpful. I went back and used the non-adjusted p value (which should not normally be done) of 0.05 and got 399 genes, of which 360 were higher and 39 were lower expressed in drought. 
+
+I used the topGo function to run topGO analysis for higher and lower expressed genes. Here again, not much passed the adjusted Fisher value, so I switched to the unadjusted Fisher value to get more GO groups through the filter and made the node size 5. With this, I ended up with GO groups for BP, CC, and MP for both higher and lower expressed genes.
+
+Interestingly, DNA binding activity came up in the MF for both higher and lower expression, which perhaps makes sense since DNA binding regulates gene expression, and some pathways are higher expressed and others lower expressed under stress. Oxidoreductase and transport activity, which may be in response to oxidative stress and modification of transport in the reduced water condition. I don't want to read into this too much though, since I had to make some modifications for these to show up as significant.
+
+I believe one issue in my dataset is that there are 4 control and 2 treatment plants, and one of the controls clusters closely with the drought-treated plants. With the small sample size and the one control being so close, it is hard to have any statistical power. Additionally, the drought treatment was mild, so may not have greatly affected the plant. I am curious what the results may look like if there was another drought plant or that one control plant was removed.
+

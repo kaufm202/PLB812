@@ -1,0 +1,6 @@
+GO.ID,Term,Annotated,Significant,Expected,Fisher,fdr
+GO:0005576,extracellular region,34,4,0.56,0.0023,0.0023
+GO:0016020,membrane,1422,33,23.37,0.0063,0.0063
+GO:0030312,external encapsulating structure,59,4,0.97,0.0163,0.0163
+GO:0031224,intrinsic component of membrane,661,18,10.87,0.0174,0.0174
+GO:0071944,cell periphery,112,5,1.84,0.0380,0.038

@@ -1,5 +1,5 @@
 #List files in directory
-mypath <- "C:/Users/idkau/PLB812/lab_assignments/assignment_5/counts/stranded"
+mypath <- "C:/Users/idkau/PLB812/lab_assignments/assignment_5-v2/unstranded"
 setwd(mypath)
 sampleFiles <- list.files('.')
 
@@ -82,10 +82,13 @@ makeResultsTable <- function(x,compFactor,conditionA,conditionB,lfcThreshold=0,f
 #Make new results table
 res <- makeResultsTable(dds,"condition","control","drought",lfcThreshold=0,filter=TRUE)
 head(res)
+
 #Create a column where 1 = meets cutoff, 0 = does not meet cutoff
-res$sig <- ifelse(res$padj < 0.05 & res$log2FC >= 1 & !is.na(res$padj) | res$padj < 0.05 & res$log2FC <= -1 & !is.na(res$padj) , "DE", "notDE")
+res$sig <- ifelse(res$pval < 0.05 & !is.na(res$padj) | res$pval < 0.05 & !is.na(res$padj) , "DE", "notDE")
 head(res)
 table(res$sig)
+write.table(res, file="../deseq2_results.tsv", sep='\t')
+
 #Make the plot
 ggplot(res) + geom_point(aes(x=log2(baseMeanA),y=log2(baseMeanB),color=sig))
 #Plot counts for the PGAZAT gene

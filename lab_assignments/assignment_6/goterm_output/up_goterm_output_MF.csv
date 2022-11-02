@@ -1,0 +1,14 @@
+GO.ID,Term,Annotated,Significant,Expected,Fisher,fdr
+GO:0016491,oxidoreductase activity,942,34,18.39,0.00069,0.00069
+GO:0140110,transcription regulator activity,355,15,6.93,0.00398,0.00398
+GO:0005215,transporter activity,500,19,9.76,0.00403,0.00403
+GO:0003993,acid phosphatase activity,13,3,0.25,0.00455,0.00455
+GO:0016887,ATP hydrolysis activity,123,7,2.4,0.00681,0.00681
+GO:0050660,flavin adenine dinucleotide binding,70,5,1.37,0.00770,0.0077
+GO:0046906,tetrapyrrole binding,189,9,3.69,0.01000,0.01
+GO:0016798,hydrolase activity, acting on glycosyl b...,223,11,4.35,0.01373,0.01373
+GO:0008271,secondary active sulfate transmembrane t...,10,2,0.2,0.01897,0.01897
+GO:0010181,FMN binding,13,2,0.25,0.02375,0.02375
+GO:0004497,monooxygenase activity,22,3,0.43,0.04138,0.04138
+GO:0005506,iron ion binding,168,7,3.28,0.04272,0.04272
+GO:0005507,copper ion binding,39,3,0.76,0.04414,0.04414

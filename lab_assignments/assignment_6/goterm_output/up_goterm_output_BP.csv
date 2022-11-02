@@ -1,0 +1,39 @@
+GO.ID,Term,Annotated,Significant,Expected,Fisher,fdr
+GO:0051252,regulation of RNA metabolic process,678,23,11.69,0.00016,0.00016
+GO:0080090,regulation of primary metabolic process,702,23,12.1,0.00017,0.00017
+GO:0010556,regulation of macromolecule biosynthetic...,682,23,11.76,0.00025,0.00025
+GO:1901362,organic cyclic compound biosynthetic pro...,955,26,16.47,0.00031,0.00031
+GO:0018130,heterocycle biosynthetic process,916,25,15.79,0.00031,0.00031
+GO:0031323,regulation of cellular metabolic process,706,23,12.17,0.00035,0.00035
+GO:0031326,regulation of cellular biosynthetic proc...,682,23,11.76,0.00049,0.00049
+GO:0019222,regulation of metabolic process,742,24,12.79,0.00056,0.00056
+GO:0009889,regulation of biosynthetic process,682,23,11.76,0.00093,0.00093
+GO:0097659,nucleic acid-templated transcription,781,23,13.47,0.00101,0.00101
+GO:0034654,nucleobase-containing compound biosynthe...,849,23,14.64,0.00107,0.00107
+GO:0030091,protein repair,11,2,0.19,0.00238,0.00238
+GO:0019438,aromatic compound biosynthetic process,910,23,15.69,0.00294,0.00294
+GO:0009308,amine metabolic process,31,3,0.53,0.00333,0.00333
+GO:0050794,regulation of cellular process,1077,28,18.57,0.00355,0.00355
+GO:0050789,regulation of biological process,1116,30,19.24,0.00658,0.00658
+GO:0072593,reactive oxygen species metabolic proces...,8,2,0.14,0.00671,0.00671
+GO:0005976,polysaccharide metabolic process,50,4,0.86,0.00688,0.00688
+GO:0050896,response to stimulus,608,19,10.48,0.00734,0.00734
+GO:0065007,biological regulation,1146,30,19.76,0.00963,0.00963
+GO:0044264,cellular polysaccharide metabolic proces...,43,3,0.74,0.00966,0.00966
+GO:0072350,tricarboxylic acid metabolic process,5,2,0.09,0.00995,0.00995
+GO:0044271,cellular nitrogen compound biosynthetic ...,1328,28,22.9,0.01005,0.01005
+GO:0090304,nucleic acid metabolic process,1222,25,21.07,0.01124,0.01124
+GO:0044262,cellular carbohydrate metabolic process,88,5,1.52,0.01529,0.01529
+GO:0072348,sulfur compound transport,11,2,0.19,0.01772,0.01772
+GO:0009309,amine biosynthetic process,11,2,0.19,0.02103,0.02103
+GO:0072488,ammonium transmembrane transport,5,1,0.09,0.02232,0.02232
+GO:0055085,transmembrane transport,411,12,7.09,0.02531,0.02531
+GO:0006082,organic acid metabolic process,299,10,5.16,0.02739,0.02739
+GO:0005975,carbohydrate metabolic process,351,11,6.05,0.02799,0.02799
+GO:2001141,regulation of RNA biosynthetic process,677,23,11.67,0.02801,0.02801
+GO:0044106,cellular amine metabolic process,18,2,0.31,0.03499,0.03499
+GO:0009059,macromolecule biosynthetic process,1269,26,21.88,0.03539,0.03539
+GO:1903506,regulation of nucleic acid-templated tra...,677,23,11.67,0.03552,0.03552
+GO:0010467,gene expression,1406,27,24.24,0.03823,0.03823
+GO:0006790,sulfur compound metabolic process,48,3,0.83,0.04110,0.0411
+GO:0006040,amino sugar metabolic process,9,1,0.16,0.04412,0.04412
