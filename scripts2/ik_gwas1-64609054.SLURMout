@@ -1,0 +1,13 @@
+TrimmomaticPE: Started with arguments:
+ raw_sequence/SRR492407_1.fastq raw_sequence/SRR492407_2.fastq trimmed/SRR492407_1_trim_paired.fq.gz trimmed/SRR492407_1_trim_unpaired.fq.gz trimmed/SRR492407_2_trim_paired.fq.gz trimmed/SRR492407_2_trim_unpaired.fq.gz ILLUMINACLIP:/mnt/home/kaufm202/miniconda3/envs/plb812/share/trimmomatic-0.39-2/adapters/TruSeq2-PE.fa:2:30:10:2:True LEADING:25 TRAILING:25 MINLEN:50
+Using PrefixPair: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 6 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 45521342 Both Surviving: 41289598 (90.70%) Forward Only Surviving: 2649157 (5.82%) Reverse Only Surviving: 1018762 (2.24%) Dropped: 563825 (1.24%)
+TrimmomaticPE: Completed successfully

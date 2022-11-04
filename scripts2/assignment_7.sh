@@ -3,7 +3,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=1
-#SBATCH --mem=8GB
+#SBATCH --mem=40GB
 #SBATCH --job-name ik_gwas1
 #SBATCH --output=%x-%j.SLURMout
 #SBATCH --mail-type=ALL
@@ -28,5 +28,11 @@ export LD_LIBRARY_PATH="${HOME}/miniconda3/envs/plb812/lib:${LD_LIBRARY_PATH}"
 
 ###Run fastqc on raw file
 
-fastqc -o fastqc/ raw_sequence/SRR492407_2.fastq
-#raw_sequence/SRR492407_1.fastq
+#fastqc -o fastqc/ raw_sequence/SRR492407_2.fastq raw_sequence/SRR492407_1.fastq
+
+###Trimming
+sra="SRR492407"
+#trimmomatic PE raw_sequence/${sra}_1.fastq raw_sequence/${sra}_2.fastq trimmed/${sra}_1_trim_paired.fq.gz trimmed/${sra}_1_trim_unpaired.fq.gz trimmed/${sra}_2_trim_paired.fq.gz trimmed/${sra}_2_trim_unpaired.fq.gz ILLUMINACLIP:/mnt/home/kaufm202/miniconda3/envs/plb812/share/trimmomatic-0.39-2/adapters/TruSeq2-PE.fa:2:30:10:2:True LEADING:25 TRAILING:25 MINLEN:50
+
+###Run fastqc on trimmed files
+fastqc -o fastqc/ trimmed/SRR492407_1_trim_paired.fq.gz trimmed/SRR492407_2_trim_paired.fq.gz
