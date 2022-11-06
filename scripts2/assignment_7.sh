@@ -1,9 +1,9 @@
 #!/bin/bash
-#SBATCH --time=06:00:00
+#SBATCH --time=12:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=1
-#SBATCH --mem=40GB
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=50GB
 #SBATCH --job-name ik_gwas1
 #SBATCH --output=%x-%j.SLURMout
 #SBATCH --mail-type=ALL
@@ -35,4 +35,13 @@ sra="SRR492407"
 #trimmomatic PE raw_sequence/${sra}_1.fastq raw_sequence/${sra}_2.fastq trimmed/${sra}_1_trim_paired.fq.gz trimmed/${sra}_1_trim_unpaired.fq.gz trimmed/${sra}_2_trim_paired.fq.gz trimmed/${sra}_2_trim_unpaired.fq.gz ILLUMINACLIP:/mnt/home/kaufm202/miniconda3/envs/plb812/share/trimmomatic-0.39-2/adapters/TruSeq2-PE.fa:2:30:10:2:True LEADING:25 TRAILING:25 MINLEN:50
 
 ###Run fastqc on trimmed files
-fastqc -o fastqc/ trimmed/SRR492407_1_trim_paired.fq.gz trimmed/SRR492407_2_trim_paired.fq.gz
+#fastqc -o fastqc/ trimmed/SRR492407_1_trim_paired.fq.gz trimmed/SRR492407_2_trim_paired.fq.gz
+
+###Index genome and align to genome
+#cd genome-assembly
+#bwa index Athaliana_447_TAIR10.fa
+#cd ..
+
+#bwa mem -t 8 genome-assembly/Athaliana_447_TAIR10.fa trimmed/${sra}_1_trim_paired.fq.gz trimmed/${sra}_2_trim_paired.fq.gz | samtools sort -@8 -o alignments/${sra}_aligned.bam -
+
+#samtools flagstat -@ 8 alignments/${sra}_aligned.bam > alignments/mapping_statistics.flagstat
