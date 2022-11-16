@@ -1,0 +1,51 @@
+22:17:23.828 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/mnt/ufs18/home-209/kaufm202/miniconda3/envs/gatk/bin/gatk-package-4.3.0.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+22:17:23.950 INFO  HaplotypeCaller - ------------------------------------------------------------
+22:17:23.950 INFO  HaplotypeCaller - The Genome Analysis Toolkit (GATK) v4.3.0.0
+22:17:23.951 INFO  HaplotypeCaller - For support and documentation go to https://software.broadinstitute.org/gatk/
+22:17:23.951 INFO  HaplotypeCaller - Executing as kaufm202@amr-190 on Linux v3.10.0-1160.36.2.el7.x86_64 amd64
+22:17:23.951 INFO  HaplotypeCaller - Java runtime: OpenJDK 64-Bit Server VM v17.0.3-internal+0-adhoc..src
+22:17:23.951 INFO  HaplotypeCaller - Start Date/Time: November 14, 2022 at 10:17:23 PM EST
+22:17:23.952 INFO  HaplotypeCaller - ------------------------------------------------------------
+22:17:23.952 INFO  HaplotypeCaller - ------------------------------------------------------------
+22:17:23.952 INFO  HaplotypeCaller - HTSJDK Version: 3.0.1
+22:17:23.952 INFO  HaplotypeCaller - Picard Version: 2.27.5
+22:17:23.953 INFO  HaplotypeCaller - Built for Spark Version: 2.4.5
+22:17:23.953 INFO  HaplotypeCaller - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+22:17:23.953 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+22:17:23.953 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+22:17:23.954 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+22:17:23.954 INFO  HaplotypeCaller - Deflater: IntelDeflater
+22:17:23.954 INFO  HaplotypeCaller - Inflater: IntelInflater
+22:17:23.954 INFO  HaplotypeCaller - GCS max retries/reopens: 20
+22:17:23.954 INFO  HaplotypeCaller - Requester pays: disabled
+22:17:23.956 INFO  HaplotypeCaller - Initializing engine
+22:17:24.075 INFO  HaplotypeCaller - Done initializing engine
+22:17:24.084 INFO  HaplotypeCallerEngine - Disabling physical phasing, which is supported only for reference-model confidence output
+22:17:24.094 INFO  NativeLibraryLoader - Loading libgkl_utils.so from jar:file:/mnt/ufs18/home-209/kaufm202/miniconda3/envs/gatk/bin/gatk-package-4.3.0.0-local.jar!/com/intel/gkl/native/libgkl_utils.so
+22:17:24.097 INFO  NativeLibraryLoader - Loading libgkl_pairhmm_omp.so from jar:file:/mnt/ufs18/home-209/kaufm202/miniconda3/envs/gatk/bin/gatk-package-4.3.0.0-local.jar!/com/intel/gkl/native/libgkl_pairhmm_omp.so
+22:17:24.118 INFO  IntelPairHmm - Flush-to-zero (FTZ) is enabled when running PairHMM
+22:17:24.119 INFO  IntelPairHmm - Available threads: 8
+22:17:24.119 INFO  IntelPairHmm - Requested threads: 4
+22:17:24.119 INFO  PairHMM - Using the OpenMP multi-threaded AVX-accelerated native PairHMM implementation
+22:17:24.141 INFO  ProgressMeter - Starting traversal
+22:17:24.141 INFO  ProgressMeter -        Current Locus  Elapsed Minutes     Regions Processed   Regions/Minute
+22:17:24.617 WARN  InbreedingCoeff - InbreedingCoeff will not be calculated at position Chr1:184 and possibly subsequent; at least 10 samples must have called genotypes
+22:17:34.199 INFO  ProgressMeter -           Chr1:94633              0.2                   570           3401.0
+22:17:44.526 INFO  ProgressMeter -          Chr1:246367              0.3                  1490           4386.0
+22:17:54.557 INFO  ProgressMeter -          Chr1:415777              0.5                  2530           4991.0
+22:18:04.654 INFO  ProgressMeter -          Chr1:849857              0.7                  4340           6427.7
+22:18:14.738 INFO  ProgressMeter -         Chr1:1250757              0.8                  6070           7198.2
+22:18:24.791 INFO  ProgressMeter -         Chr1:1523865              1.0                  7480           7400.0
+22:18:34.853 INFO  ProgressMeter -         Chr1:1598547              1.2                  7950           6745.8
+22:18:45.731 INFO  ProgressMeter -         Chr1:1823730              1.4                  9140           6721.5
+22:18:55.762 INFO  ProgressMeter -         Chr1:2037417              1.5                 10260           6719.1
+22:19:05.788 INFO  ProgressMeter -         Chr1:2347903              1.7                 11530           6806.0
+22:19:15.854 INFO  ProgressMeter -         Chr1:2585931              1.9                 12810           6880.2
+22:19:25.860 INFO  ProgressMeter -         Chr1:2828697              2.0                 14050           6925.8
+22:19:36.015 INFO  ProgressMeter -         Chr1:3093525              2.2                 15430           7020.4
+22:19:46.254 INFO  ProgressMeter -         Chr1:3193865              2.4                 16020           6763.7
+22:19:56.261 INFO  ProgressMeter -         Chr1:3375528              2.5                 17040           6721.1
+22:20:06.474 INFO  ProgressMeter -         Chr1:3578172              2.7                 18210           6730.7
+22:20:16.509 INFO  ProgressMeter -         Chr1:3759983              2.9                 19210           6686.9
+22:20:26.527 INFO  ProgressMeter -         Chr1:3890191              3.0                 19940           6559.7
+slurmstepd: error: *** JOB 65144058 ON amr-190 CANCELLED AT 2022-11-14T22:20:36 ***

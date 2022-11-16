@@ -1,0 +1,60 @@
+13:41:50.032 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/mnt/ufs18/home-209/kaufm202/miniconda3/envs/gatk/bin/gatk-package-4.3.0.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+13:41:50.323 INFO  HaplotypeCaller - ------------------------------------------------------------
+13:41:50.324 INFO  HaplotypeCaller - The Genome Analysis Toolkit (GATK) v4.3.0.0
+13:41:50.324 INFO  HaplotypeCaller - For support and documentation go to https://software.broadinstitute.org/gatk/
+13:41:50.325 INFO  HaplotypeCaller - Executing as kaufm202@lac-248 on Linux v3.10.0-1160.36.2.el7.x86_64 amd64
+13:41:50.325 INFO  HaplotypeCaller - Java runtime: OpenJDK 64-Bit Server VM v17.0.3-internal+0-adhoc..src
+13:41:50.325 INFO  HaplotypeCaller - Start Date/Time: November 15, 2022 at 1:41:49 PM EST
+13:41:50.326 INFO  HaplotypeCaller - ------------------------------------------------------------
+13:41:50.326 INFO  HaplotypeCaller - ------------------------------------------------------------
+13:41:50.327 INFO  HaplotypeCaller - HTSJDK Version: 3.0.1
+13:41:50.327 INFO  HaplotypeCaller - Picard Version: 2.27.5
+13:41:50.327 INFO  HaplotypeCaller - Built for Spark Version: 2.4.5
+13:41:50.328 INFO  HaplotypeCaller - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+13:41:50.328 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+13:41:50.328 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+13:41:50.328 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+13:41:50.329 INFO  HaplotypeCaller - Deflater: IntelDeflater
+13:41:50.329 INFO  HaplotypeCaller - Inflater: IntelInflater
+13:41:50.329 INFO  HaplotypeCaller - GCS max retries/reopens: 20
+13:41:50.329 INFO  HaplotypeCaller - Requester pays: disabled
+13:41:50.330 INFO  HaplotypeCaller - Initializing engine
+13:41:50.525 INFO  HaplotypeCaller - Done initializing engine
+13:41:50.536 INFO  HaplotypeCallerEngine - Disabling physical phasing, which is supported only for reference-model confidence output
+13:41:50.547 INFO  NativeLibraryLoader - Loading libgkl_utils.so from jar:file:/mnt/ufs18/home-209/kaufm202/miniconda3/envs/gatk/bin/gatk-package-4.3.0.0-local.jar!/com/intel/gkl/native/libgkl_utils.so
+13:41:50.572 INFO  NativeLibraryLoader - Loading libgkl_pairhmm_omp.so from jar:file:/mnt/ufs18/home-209/kaufm202/miniconda3/envs/gatk/bin/gatk-package-4.3.0.0-local.jar!/com/intel/gkl/native/libgkl_pairhmm_omp.so
+13:41:50.597 INFO  IntelPairHmm - Flush-to-zero (FTZ) is enabled when running PairHMM
+13:41:50.598 INFO  IntelPairHmm - Available threads: 8
+13:41:50.599 INFO  IntelPairHmm - Requested threads: 4
+13:41:50.599 INFO  PairHMM - Using the OpenMP multi-threaded AVX-accelerated native PairHMM implementation
+13:41:50.601 INFO  VectorLoglessPairHMM - Time spent in setup for JNI call : 0.0
+13:41:50.601 INFO  PairHMM - Total compute time in PairHMM computeLogLikelihoods() : 0.0
+13:41:50.602 INFO  SmithWatermanAligner - Total compute time in java Smith-Waterman : 0.00 sec
+13:41:50.604 INFO  HaplotypeCaller - Shutting down engine
+[November 15, 2022 at 1:41:50 PM EST] org.broadinstitute.hellbender.tools.walkers.haplotypecaller.HaplotypeCaller done. Elapsed time: 0.01 minutes.
+Runtime.totalMemory()=589299712
+htsjdk.samtools.util.RuntimeIOException: File not found: variants_call/SRR492407_output.vcf
+	at htsjdk.variant.variantcontext.writer.VariantContextWriterBuilder.build(VariantContextWriterBuilder.java:451)
+	at htsjdk.variant.variantcontext.writer.VariantContextWriterBuilder.build(VariantContextWriterBuilder.java:415)
+	at org.broadinstitute.hellbender.utils.variant.GATKVariantContextUtils.createVCFWriter(GATKVariantContextUtils.java:124)
+	at org.broadinstitute.hellbender.tools.walkers.haplotypecaller.HaplotypeCallerEngine.makeVCFWriter(HaplotypeCallerEngine.java:419)
+	at org.broadinstitute.hellbender.tools.walkers.haplotypecaller.HaplotypeCaller.onTraversalStart(HaplotypeCaller.java:257)
+	at org.broadinstitute.hellbender.engine.GATKTool.doWork(GATKTool.java:1093)
+	at org.broadinstitute.hellbender.cmdline.CommandLineProgram.runTool(CommandLineProgram.java:140)
+	at org.broadinstitute.hellbender.cmdline.CommandLineProgram.instanceMainPostParseArgs(CommandLineProgram.java:192)
+	at org.broadinstitute.hellbender.cmdline.CommandLineProgram.instanceMain(CommandLineProgram.java:211)
+	at org.broadinstitute.hellbender.Main.runCommandLineProgram(Main.java:160)
+	at org.broadinstitute.hellbender.Main.mainEntry(Main.java:203)
+	at org.broadinstitute.hellbender.Main.main(Main.java:289)
+Caused by: java.nio.file.NoSuchFileException: variants_call/SRR492407_output.vcf
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at htsjdk.variant.variantcontext.writer.VariantContextWriterBuilder.build(VariantContextWriterBuilder.java:447)
+	... 11 more
+Using GATK jar /mnt/ufs18/home-209/kaufm202/miniconda3/envs/gatk/bin/gatk-package-4.3.0.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -Xmx4g -jar /mnt/ufs18/home-209/kaufm202/miniconda3/envs/gatk/bin/gatk-package-4.3.0.0-local.jar HaplotypeCaller -R genome-assembly/Athaliana_447_TAIR10.fa -I alignments/SRR492407_read_group.bam -O variants_call/SRR492407_output.vcf

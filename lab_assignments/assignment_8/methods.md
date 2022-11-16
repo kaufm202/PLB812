@@ -1,0 +1,3 @@
+I first used gatk MarkDuplicates to mark my duplicates, which found that just 0.11% of the reads were duplicates. I then ran the duplicate marked bam through gatk AddOrReplaceReadGroups using the parameters provided.
+
+I then went to the HaplotypeCaller and using the default options, outputting to a vcf file. It gave me an error about the genome index, so I had to run gatk CreateSequenceDictionary to index my reference genome, and then it worked. When I first ran the HaplotypeCaller, I outputted to vcf.gz, but then uncompressing did not work, even when I tried to use bcftools just to view it, I got an error around Chr3. Not sure what happened there, but I just reran HaplotypeCaller with vcf output, and then the resulting vcf file was readable.
