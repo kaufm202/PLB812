@@ -1,0 +1,97 @@
+
+OrthoFinder version 2.5.4 Copyright (C) 2014 David Emms
+
+2022-11-28 20:50:16 : Starting OrthoFinder 2.5.4
+48 thread(s) for highly parallel tasks (BLAST searches etc.)
+6 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+Test can run "fastme -i /mnt/ufs18/home-209/kaufm202/PLB812/data2/ortho/fasta/OrthoFinder/Results_Nov28/WorkingDirectory/SimpleTest.phy -o /mnt/ufs18/home-209/kaufm202/PLB812/data2/ortho/fasta/OrthoFinder/Results_Nov28/WorkingDirectory/SimpleTest.tre" - ok
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2022-11-28 20:50:17 : Creating diamond database 1 of 3
+2022-11-28 20:50:18 : Creating diamond database 2 of 3
+2022-11-28 20:50:18 : Creating diamond database 3 of 3
+
+Running diamond all-versus-all
+------------------------------
+Using 48 thread(s)
+2022-11-28 20:50:19 : This may take some time....
+2022-11-28 21:09:17 : Done all-versus-all sequence search
+
+Running OrthoFinder algorithm
+-----------------------------
+2022-11-28 21:09:18 : Initial processing of each species
+2022-11-28 21:09:28 : Initial processing of species 1 complete
+2022-11-28 21:09:30 : Initial processing of species 0 complete
+2022-11-28 21:09:34 : Initial processing of species 2 complete
+2022-11-28 21:09:37 : Connected putative homologues
+2022-11-28 21:09:39 : Written final scores for species 1 to graph file
+2022-11-28 21:09:39 : Written final scores for species 0 to graph file
+2022-11-28 21:09:40 : Written final scores for species 2 to graph file
+2022-11-28 21:10:03 : Ran MCL
+
+Writing orthogroups to file
+---------------------------
+OrthoFinder assigned 76211 genes (78.8% of total) to 16794 orthogroups. Fifty percent of all genes were in orthogroups with 4 or more genes (G50 was 4) and were contained in the largest 6588 orthogroups (O50 was 6588). There were 9458 orthogroups with all species present and 4194 of these consisted entirely of single-copy genes.
+
+2022-11-28 21:10:41 : Done orthogroups
+
+Analysing Orthogroups
+=====================
+
+Calculating gene distances
+--------------------------
+2022-11-28 21:11:12 : Done
+2022-11-28 21:11:13 : Done 0 of 7531
+2022-11-28 21:11:17 : Done 1000 of 7531
+2022-11-28 21:11:20 : Done 2000 of 7531
+2022-11-28 21:11:24 : Done 3000 of 7531
+2022-11-28 21:11:28 : Done 4000 of 7531
+2022-11-28 21:11:32 : Done 5000 of 7531
+2022-11-28 21:11:35 : Done 6000 of 7531
+2022-11-28 21:11:39 : Done 7000 of 7531
+
+Inferring gene and species trees
+--------------------------------
+
+Best outgroup(s) for species tree
+---------------------------------
+2022-11-28 21:11:41 : Starting STRIDE
+2022-11-28 21:11:43 : Done STRIDE
+Observed 68 well-supported, non-terminal duplications. 30 support the best root and 38 contradict it.
+Best outgroup for species tree:
+  Atrichopoda
+
+Reconciling gene trees and species tree
+---------------------------------------
+Outgroup: Atrichopoda
+2022-11-28 21:11:43 : Starting Recon and orthologues
+2022-11-28 21:11:43 : Starting OF Orthologues
+2022-11-28 21:11:44 : Done 0 of 7531
+2022-11-28 21:11:45 : Done 1000 of 7531
+2022-11-28 21:11:46 : Done 2000 of 7531
+2022-11-28 21:11:47 : Done 3000 of 7531
+2022-11-28 21:11:48 : Done 4000 of 7531
+2022-11-28 21:11:48 : Done 5000 of 7531
+2022-11-28 21:11:49 : Done 6000 of 7531
+2022-11-28 21:11:50 : Done 7000 of 7531
+2022-11-28 21:11:51 : Done OF Orthologues
+
+Writing results files
+=====================
+2022-11-28 21:11:58 : Done orthologues
+
+Results:
+    /mnt/ufs18/home-209/kaufm202/PLB812/data2/ortho/fasta/OrthoFinder/Results_Nov28/
+
+CITATION:
+ When publishing work that uses OrthoFinder please cite:
+ Emms D.M. & Kelly S. (2019), Genome Biology 20:238
+
+ If you use the species tree in your work then please also cite:
+ Emms D.M. & Kelly S. (2017), MBE 34(12): 3267-3278
+ Emms D.M. & Kelly S. (2018), bioRxiv https://doi.org/10.1101/267914

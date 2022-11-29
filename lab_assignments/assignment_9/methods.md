@@ -1,0 +1,1 @@
+I first downloaded the three fasta files from JGI using the command line download they provide, then unzip everything and renamed to simpler names. I then used "orthofinder -f fasta" to run OrthoFinder on SLURM. It ran with no error and outputted the approporiate directories.
