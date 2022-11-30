@@ -3,3 +3,5 @@ Number of lines is 17407, so removing the header row, 17406 sets of orthologs we
 AT4G28490 returned no orthologs
 
 I tested AT5G38410 (Rubisco small subunit) and got evm_27.model.AmTr_v1.0_scaffold00079.19 for Amborella and LOC_Os12g17600.1, LOC_Os12g19470.2, LOC_Os12g19381.1 for rice.
+
+AT5G13930 (CHALCONE SYNTHASE): Amborella - evm_27.model.AmTr_v1.0_scaffold00039.31; Rice - LOC_Os11g32650.1
